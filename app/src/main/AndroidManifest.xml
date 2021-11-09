@@ -11,11 +11,12 @@
         android:theme="@style/Theme.DroidCafe" >
         <activity
             android:name=".OrderActivity"
+            android:label="@string/tittle_activity_order"
             android:exported="false"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.Parent_activity"
-                android:value="com.example.android.droidcafe.MainActivity"/>
+                android:value="com.example.android.DroidCafe.MainActivity"/>
         </activity>
         <activity
             android:name=".MainActivity"
